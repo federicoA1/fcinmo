@@ -1,0 +1,86 @@
+<script language="javascript" >
+    $().ready(function() {
+	
+
+
+	$("#form1").validate({
+	   rules: {
+			nombre: {
+				required: true,
+			},			
+			captcha: {
+				required: true
+				
+			},
+			consulta: {
+				required: true,
+				minlength:4
+			},
+			email: {
+				required:true,
+				email:true
+			}
+		},
+		messages: {
+			nombre: {
+				required: "Por favor ingrese su nombre"
+			},			
+			captcha: {
+				required: "Por favor ingrese los números que aparecen en la izquierda"
+				
+			},
+			consulta: {
+				required: "Por favor ingrese un mensaje",
+				minlength:"El mensaje debe tener almenos 4 caracteres"
+			},
+			email: {
+				required:"Ingrese su email",
+				email:"Ingrese un email valido"
+			}
+		}
+	});
+});
+</script>
+<div class="formulario">
+        <h1>Formulario de contacto</h1>
+        {mensaje}
+        <div class="info">
+        Para pedir un turno por favor comuníquese con los teléfonos <br />
+		0342 - 4556395<br />
+ 
+		0342 - 4521022
+        </div>
+  		<form id="form1" name="form1" method="post" action="contacto.php?act=doContacto" >
+	      <table width="700" border="0" cellspacing="0" cellpadding="0" class="tablaCarrito grande">
+	       
+	        <tr>
+	          <td width="190"  valign="top">Nombre*</td>
+	          <td><input name="nombre" type="text" id="nombre" class="texto" /></td>
+            </tr>
+	        <tr>
+	          <td valign="top">E-mail*</td>
+	          <td><input name="email" type="text" id="email"  class="texto"/></td>
+            </tr>
+	        <tr>
+	          <td valign="top">Tel&eacute;fono</td>
+	          <td><input name="telefono" type="text" id="telefono" class="texto" /></td>
+            </tr>
+	        <tr>
+	          <td valign="top"> Consulta</td>
+	          <td><textarea name="consulta" id="consulta" class="texto"></textarea></td>
+            </tr>
+	        <tr>
+	          <td valign="top">Verificación<br />
+	            <img src="captcha.php" alt="captcha"  class="captcha"/></td>
+	          <td valign="top"><input name="captcha" type="text" id="captcha" class="texto" /><br /><em>Por favor ingrese los números de la izquierda en este campo</em></td>
+            </tr>
+	        <tr>
+	          <td class="noBorder">&nbsp;</td>
+	          <td class="noBorder"><input type="submit" class="botonRojo botonformulario" value="Consultar" /></td>
+            </tr>
+	       
+          </table>
+        </form>
+</div>
+
+	  

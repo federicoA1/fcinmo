@@ -1,0 +1,33 @@
+<!-- BEGIN bloque -->
+<script type="text/javascript" src="fckeditor/fckeditor.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput-1.2.2.js"></script>
+<script language="javascript">
+{script}
+</script>
+{head}
+</head>
+
+<body class="contenido">
+<div class="cabecera">{titulo}</div>
+<br>
+{mensaje}
+
+<div class="formulario">
+<form action="{filename}?act={modo}"  name="formu" method="post" enctype="multipart/form-data">
+        {hidden}
+		<table width="100%"  class="contenido" cellpadding="4" cellspacing="0" border="0">
+         <tr><td><a href="?act=listar" class="ui-button">Cancelar</a></td><td></td></tr>
+        <!-- BEGIN campo -->
+		  <tr> 
+            <td width="20%" valign="top"><div align="right">{nombre_campo}</div></td>
+            <td width="70%">{tipo_campo} </td>
+            <td width="10%"><span class="Estilo1">{error}</span></td>
+          </tr>
+        <!-- END campo -->
+        <tr><td></td><td> <input name="submit" type="submit" value="{texto_boton}"></td></tr>
+		</table>
+        
+</form>
+</div>
+	  {after_form}
+<!-- END bloque -->

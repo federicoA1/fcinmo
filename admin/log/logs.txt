@@ -1,0 +1,8 @@
+
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias where id=1  ERROR :Unknown column 'c.nombre' in 'field list'
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias where id=1  ERROR :Unknown column 'c.nombre' in 'field list'
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias where id=1  as s left join categorias as c on c.id = s.id_categoria ERROR :You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as s left join categorias as c on c.id = s.id_categoria' at line 1
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias where id=1  as s left join categorias as c on c.id = s.id_categoria ERROR :You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as s left join categorias as c on c.id = s.id_categoria' at line 1
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias  as s left join categorias as c on c.id = s.id_categoria where id=1 ERROR :Column 'id' in where clause is ambiguous
+select CONCAT(c.nombre,' ',s.nombre)  from subcategorias  as s left join categorias as c on c.id = s.id_categoria where id=1 ERROR :Column 'id' in where clause is ambiguous
+SELECT nombre,id FROM blogs  ERROR :Unknown column 'nombre' in 'field list'

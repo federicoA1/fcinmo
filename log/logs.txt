@@ -1,0 +1,40 @@
+
+select * FROM especialidad where id='1' ERROR :Table 'salutedonna.especialidad' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM paginas where id='2' ERROR :Table 'salutedonna.paginas' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * from galeria order by orden ERROR :Table 'salutedonna.galeria' doesn't exist
+select * from galeria order by orden ERROR :Table 'salutedonna.galeria' doesn't exist
+select * from galeria order by orden ERROR :Table 'salutedonna.galeria' doesn't exist
+select * from galeria order by orden ERROR :Table 'salutedonna.galeria' doesn't exist
+select * from galeria order by orden ERROR :Table 'salutedonna.galeria' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist
+select * FROM textos where id='1' ERROR :Table 'salutedonna.textos' doesn't exist
+select * FROM textos where id='2' ERROR :Table 'salutedonna.textos' doesn't exist
+select * from especialidades order by orden asc ERROR :Table 'salutedonna.especialidades' doesn't exist

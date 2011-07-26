@@ -1,0 +1,41 @@
+<h1>Ubicación</h1>
+<div class="mapa">
+				<div id="map_canvas" style="width:620px;height:310px;margin-left:0px;"></div>
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+  <script language="javascript" >
+			
+			var geocoder;
+			var map;
+			var marker;
+			
+			function initialize() {
+				geocoder = new google.maps.Geocoder();
+				var latlng = new google.maps.LatLng(-31.641056,-60.700576);
+				var myOptions = {
+				  zoom: 14,
+				  center: latlng,
+				  mapTypeId: google.maps.MapTypeId.ROADMAP,
+panControl: false,
+    zoomControl: true,
+    scaleControl: true
+
+				}
+				
+				
+				map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+				marker = new google.maps.Marker({
+							  map: map, 
+							  position: latlng,
+							  //icon: "http://excelparacontadores.com.ar/hj2011/images/pin2.png",
+							  draggable:false
+						  });
+			  }
+			  
+			$().ready(function() {
+				initialize();
+			});
+			</script>
+
+			</div>
+            <div class="info">A solo pasos de la terminal de Santa FE, El instituto Salute Donna se encuentra en una ubicación privilegiada del centro de Santa Fe ofreciendo una amplia gama de servicios para todo el interior de la provincia y provincia aledaneas.</div>

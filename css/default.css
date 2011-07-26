@@ -1,0 +1,76 @@
+html{height: 100%;}
+body{margin:0px;padding:0px;font-family: Arial, Helvetica, sans-serif;color:#676869;background: url("../images/bg_body.png") repeat-x bottom right;height: 100%;background-color: #B4A676;}
+h1{margin:0px;}
+.wrapper{width:918px;margin:0px auto;position:relative;}
+#header{background: url("../images/bg_header.png") repeat-x bottom;height: 177px;}
+#logo{}
+
+
+#menu1{position:absolute;right:0px;top:127px;width:620px;}
+#menu1 a{float:left;}
+#menu1 a.link{color:#DDD;text-decoration: none;font-size:15px;background:url("../images/bg_topMenu.png") no-repeat  right;padding-right:10px;padding-left:10px;line-height: 40px;}
+#menu1 a.nolink{background: none;}
+#menu1 a:hover{color:#FFF;text-decoration:underline;}
+
+#social{
+	position:absolute;right:10px;top:20px;width:50px;
+}
+
+.info{background-color: #fcfdd7;border:1px solid #8c9009;color:#616406;padding:15px;margin:20px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+
+
+#footer{background:url("../images/bg_footer.png") repeat-x  right;color:#EEE;font-size: 11px;}
+#footer .wrapper .inner{padding:3px 20px;}
+.subfooter{text-align: right;float: right;}
+.subfooter a{color:#DDD;text-decoration: none;font-size: 12px;}
+.subfooter a:hover{color:#FFF;text-decoration: underline;}
+
+.categorias{float: left;width: 200px;}
+
+.contenido h1{font-family: 'Lora', serif;font-size: 27px;color:#675d38;font-weight: normal;margin:10px 4px;}
+.contenido p{text-align: justify;padding:0px 10px;}
+.contenido{font-size: 13px;}
+.contenido p b{color:#676869;}
+#content .wrapper {
+	background: url("../images/bg_wrapperCont.png") repeat-y;overflow: hidden;
+}
+.especialidades{float: left;margin-left:15px;width: 242px;}
+.especialidades {text-align: center;}
+.especialidades ul{list-style: none;text-align: left;margin:4px;padding-left:8px;margin-bottom:10px;}
+.especialidades li a{color:#6B613D;text-decoration:none;display:block;padding-bottom:8px;text-align:left;font-size: 17px;}
+.especialidades li a:hover {color:#a52a2a}
+.especialidades li a.seleccionado {color:#a52a2a}
+
+.contenido{
+	float: right;width: 623px;margin-right:22px;background:url("../images/bg_contenido.png") no-repeat bottom right;padding-bottom:90px;
+}
+label.error{
+	color:#a52a2a;font-size: 12px;display: block;
+}
+
+/*Index*/
+.flash{background: url("../images/bg_flash.png") no-repeat;overflow: hidden;width:623px;height: 237px;}
+.flash .margenFlash{
+	margin-top:4px;margin-left:3px;
+}
+
+/*Formulario*/
+.formulario {font-size: 14px;}
+.formulario em{font-size: 11px;}
+.formulario .captcha{border:1px solid #CCC;}
+.formulario .texto{border:1px solid #676869;color:#676869;font-size: 14px;margin:3px;width: 300px;}
+
+.mapa{border:1px solid #444;}
+
+/*blogs*/
+.posts{background: url("../images/bg_blog.png") no-repeat;overflow: hidden;height:108px;width:598px;margin-top:10px;  }
+.posts h3{padding:3px;font-family: 'Lora', serif;margin:0px;padding-left:50px;font-size: 20px;font-weight: normal;}
+.posts h4{padding:3px;font-family: 'Lora', serif;margin:0px;padding-left:80px;font-size: 16px;font-weight: normal;color: #a52a2a;}
+.posts p{padding:0px;margin:0px;padding-left:80px;padding-right:10px;}
+.posts a{float: right;color:#a52a2a;padding-right:40px;}
+.blogs a{color:#a52a2a;margin-left:10px;display: block;text-decoration: none;}
+.blogs a:hover{text-decoration: underline;}
+.blogs h3 em{
+	font-style: normal;font-weight: normal;
+}
+
